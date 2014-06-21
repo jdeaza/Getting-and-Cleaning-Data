@@ -1,7 +1,7 @@
 Getting-and-Cleaning-Data
 =========================
 Getting & Cleaning Data Course Project
-_______________________________________
+======================================
 
 You can find a several scripts about assignment the Getting and Cleaning Data course
 
@@ -12,7 +12,7 @@ iv. A full description is available at the site where the data raw was obtained:
 
 
 Steps to resolve assignment 2 Getting and Cleaning Data
-_______________________________________________________
+=======================================================
 
 I describe briefly the steps to resolve the project
 
