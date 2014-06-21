@@ -27,5 +27,5 @@ iv. Appropriately labels the data set with descriptive variable names.
 v. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-Don't forget: You need download the pakages read.table and reshape2 
+Don't forget: You need download the packages read.table and reshape2 
 ===================================================================
