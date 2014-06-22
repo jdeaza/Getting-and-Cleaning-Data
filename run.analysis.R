@@ -83,12 +83,13 @@ names(subject_train) = "subject"
 
 data_train <- cbind(subject_train, y_train, x_train)
 
-##### Merge test data and train data
+##### Merge test data and train data and create tidy data
 
 dataf <- rbind(data_test, data_train)
+write.table(dataf, file = "./assignmentGI/data_tidy.txt")
 
 ###### Create tidy data for with the average of each variable for each activity and each subject
 
 data_melt <- melt(dataf, id=c("subject", "Activity"))
-data_tidy <- dcast(data_melt, Activity+ subject ~ variable, mean)
-write.table(data_tidy, file = "./assignmentGI/data_tidy_mean.txt")
+data_tidy_mean <- dcast(data_melt, Activity+ subject ~ variable, mean)
+write.table(data_tidy_mean, file = "./assignmentGI/data_tidy_mean.txt")
