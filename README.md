@@ -16,16 +16,23 @@ Steps to resolve assignment 2 Getting and Cleaning Data
 
 I describe briefly the steps to resolve the project
 
-i. Merges the training and the test sets to create one data set.
+i. Install and load packages data.table and reshape2
 
-ii. Extracts only the measurements on the mean and standard deviation for each measurement. 
+ii. Checking for and creating directory
 
-iii. Uses descriptive activity names to name the activities in the data set.
+iii. Merges the training and the test sets to create one data set.
 
-iv. Appropriately labels the data set with descriptive variable names.
+iv. Extracts only the measurements on the mean and standard deviation for each measurement. 
 
-v. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+v. Uses descriptive activity names to name the activities in the data set.
+
+vi. Appropriately labels the data set with descriptive variable names.
+
+vii. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+How run the code?
+=================
+
+Ypu can run th code with the command Rscript run_analysis.R
 
 
-Don't forget: You need download the packages read.table and reshape2 
-===================================================================
