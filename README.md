@@ -36,6 +36,6 @@ vii. Creates a second, independent tidy data set with the average of each variab
 How to run the code?
 =================
 
-You can run th code with the command Rscript run_analysis.R
+You can run the code with the command Rscript run_analysis.R
 
 
