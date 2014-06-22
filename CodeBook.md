@@ -135,3 +135,8 @@ iii. Uses descriptive activity names to name the activities in the data set
 iv. Appropriately labels the data set with descriptive variable names.
 
 v. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+How to run the code?
+===================
+
+You can run th code with the command Rscript run_analysis.R
